@@ -4,6 +4,7 @@ import SixColumns from '../components/scenes/SixColumns.jsx'
 import Trilithon from '../components/scenes/Trilithon.jsx'
 import Quarry from '../components/scenes/Quarry.jsx'
 import Bacchus from '../components/scenes/Bacchus.jsx'
+import ExploreGrid from '../components/ExploreGrid.jsx'
 import usePageTitle from '../usePageTitle.js'
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Trilithon />
       <Quarry />
       <Bacchus />
+      <ExploreGrid />
     </main>
   )
 }
