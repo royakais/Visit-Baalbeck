@@ -5,6 +5,8 @@ import Footer from './components/Footer.jsx'
 import Home from './pages/Home.jsx'
 import Explore from './pages/Explore.jsx'
 import Place from './pages/Place.jsx'
+import MapPage from './pages/MapPage.jsx'
+import Credits from './pages/Credits.jsx'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -21,6 +23,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/explore/:slug" element={<Explore />} />
         <Route path="/place/:slug" element={<Place />} />
+        <Route path="/map" element={<MapPage />} />
+        <Route path="/credits" element={<Credits />} />
         <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
