@@ -365,6 +365,16 @@ body::before {
 .footer__links a:hover { opacity: 1; color: var(--sun); }
 .footer__coords { font-family: var(--mono); font-size: .72rem; letter-spacing: .12em; color: var(--sun); margin-top: .6rem; }
 
+/* ───────── crash screen ───────── */
+.crash {
+  min-height: 100svh; display: grid; align-content: center; gap: 1rem; max-width: 760px; margin-inline: auto;
+  padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px));
+  color: var(--stone);
+}
+.crash h1 { font-family: var(--display); font-weight: 400; font-size: 2.2rem; }
+.crash pre { white-space: pre-wrap; overflow-x: auto; font-family: var(--mono); font-size: .8rem; background: var(--silhouette); padding: 1rem; border: 1px solid var(--silhouette-line); }
+.crash .btn { justify-self: start; background: var(--sun); color: var(--ink); border-color: var(--sun); }
+
 /* ───────── responsive ───────── */
 @media (max-width: 900px) {
   .explore__grid, .pgrid, .gallery__row, .plan__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
