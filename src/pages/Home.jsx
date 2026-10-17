@@ -1,6 +1,7 @@
 import Sky from '../components/Sky.jsx'
 import Hero from '../components/scenes/Hero.jsx'
 import SixColumns from '../components/scenes/SixColumns.jsx'
+import Trilithon from '../components/scenes/Trilithon.jsx'
 import usePageTitle from '../usePageTitle.js'
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Sky />
       <Hero />
       <SixColumns />
+      <Trilithon />
     </main>
   )
 }
