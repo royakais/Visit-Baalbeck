@@ -5,6 +5,7 @@ import Trilithon from '../components/scenes/Trilithon.jsx'
 import Quarry from '../components/scenes/Quarry.jsx'
 import Bacchus from '../components/scenes/Bacchus.jsx'
 import ExploreGrid from '../components/ExploreGrid.jsx'
+import PlanStrip from '../components/PlanStrip.jsx'
 import usePageTitle from '../usePageTitle.js'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Quarry />
       <Bacchus />
       <ExploreGrid />
+      <PlanStrip />
     </main>
   )
 }
